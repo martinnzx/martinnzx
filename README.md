@@ -1,16 +1,122 @@
-## Hi there 👋
+<!-- Profile README para martinnzx -->
 
-<!--
-**martinnzx/martinnzx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <h1>Mamani Mariano Martín</h1>
 
-Here are some ideas to get you started:
+  <p>
+    <img src="https://img.shields.io/badge/Backend_Developer-Java_21_•_Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Backend Developer Badge" />
+  </p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <p>
+    <a href="mailto:martinnnxz@gmail.com">
+      <img src="https://img.shields.io/badge/Email-martinnnxz%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://linkedin.com/in/tu-usuario-linkedin" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-Martín_Mamani-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/martinnzx?tab=repositories" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-martinnzx-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+  </p>
+
+  <p>
+    <b>📍 San Salvador de Jujuy, Argentina</b> • <b>🎓 Estudiante avanzado de la carrera Analista Programador (UNJu)</b>
+  </p>
+</div>
+
+<hr/>
+
+## 👨‍💻 Sobre Mí
+
+Desarrollador Backend especializado en **Java** y **Spring Boot**, enfocado en crear soluciones sólidas que priorizan la seguridad, la escalabilidad y un código fácil de mantener.
+
+Diseño APIs REST limpias y eficientes, implementando esquemas de autenticación con **Spring Security + JWT**, e integrando **PostgreSQL** y **Docker** como parte de mi stack tecnológico.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+<div align="center">
+
+### Lenguajes y Frameworks
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+### Bases de Datos
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC292B?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xIDFoMTB2MTBIMXptMCAxMmgxMHYxMEgxem0xMi0xMmgxMHYxMEgxM3ptMCAxMmgxMHYxMEgxM3oiLz48L3N2Zz4%3D)
+
+### DevOps y Herramientas
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![OpenAPI/Swagger](https://img.shields.io/badge/OpenAPI_3_/_Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+
+### Testing y Frontend Complementario
+![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-C5D300?style=flat-square&logo=mocking&logoColor=black)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+
+</div>
+
+---
+
+## 🌟 Proyectos Destacados
+
+### 🚚 [Sistema de Logística de Envíos API](https://github.com/martinnzx/sistema-logistica-api)
+> Plataforma integral para la gestión inteligente de paquetería, control de flotas y trazabilidad de rutas de distribución.
+
+Desarrollada con una arquitectura modular y buenas prácticas de diseño de software, resuelve problemáticas reales de transporte, asignación de cargas y almacenamiento logístico.
+
+**Aspectos técnicos clave:**
+- 🔐 **Seguridad & Control de Acceso:** Autenticación *stateless* con **Spring Security** y tokens **JWT**, gestionando roles diferenciados (`ADMIN`, `EMPLEADO`, `CLIENTE`).
+- 🔄 **Máquina de Estados:** Implementación del patrón de diseño **State** para gestionar con rigor las transiciones de vida de cada paquete (`GENERADO` ➔ `EN_ALMACEN` ➔ `EN_RUTA` ➔ `ENTREGADO`).
+- 📦 **Validación Inteligente de Restricciones:** Motor de reglas que valida límites de peso, volumen, requerimientos de cadena de frío y niveles de fragilidad al asignar paquetes a vehículos de transporte.
+- 🗄️ **Persistencia Relacional:** Gestión integral del modelo de datos sobre **PostgreSQL 17** garantizando consistencia y trazabilidad histórica.
+- 📑 **OpenAPI 3 Desacoplada:** Patrón de interfaces para controladores que mantiene la lógica de negocio limpia de anotaciones de documentación.
+- 🐳 **Contenerización:** Configuración y ejecución de la aplicación en entornos aislados con **Docker**.
+
+🔗 **Repositorio:** [github.com/martinnzx/sistema-logistica-api](https://github.com/martinnzx/sistema-logistica-api)
+
+---
+
+### 🏋️ [GymHub — Sistema Integral de Gestión Deportiva](https://gymhub-app.vercel.app/home)
+> Plataforma web completa para la administración de centros deportivos, control de socios, planes de entrenamiento, suscripciones y recaudación de cuotas.
+
+🌐 **Aplicación desplegada y 100% funcional:** [gymhub-app.vercel.app/home](https://gymhub-app.vercel.app/home)
+
+**Aspectos técnicos destacados:**
+- 💻 **Frontend (Angular & Bootstrap):**
+  - Aplicación SPA desarrollada en **Angular** con maquetación responsiva (*mobile-first*) en **Bootstrap 5**.
+  - Dashboard interactivo con estadísticas de ingresos, concurrencia y métricas visuales implementadas con **Chart.js**.
+  - Formularios reactivos con validaciones en tiempo real, navegación modular y protección de rutas mediante *Guards*.
+- ⚙️ **Backend (Node.js & Express):**
+  - API REST estructurada con separación por capas (rutas, controladores, servicios y modelos).
+  - Persistencia de datos en **PostgreSQL** mediante el ORM **Sequelize**.
+  - Autenticación mediante **JWT** e inicio de sesión con **Google OAuth**, con control de acceso por roles (`Administrador`, `Entrenador`, `Socio`).
+  - Integración externa con **MercadoPago** para la generación y cobro automático de cuotas y suscripciones.
+  - Envío de correos transaccionales automatizados con **Resend** y documentación interactiva de endpoints con **Swagger**.
+
+---
+
+## 🤝 Contacto
+
+Actualmente me encuentro en búsqueda activa de mi **primera experiencia laboral** en el área de desarrollo de software / backend, con mucho entusiasmo para integrarme a un equipo, aportar soluciones técnicas y seguir potenciando mis conocimientos.
+
+- 💻 **Stack de interés:** Java / Spring Boot / APIs RESTful
+
+<div align="center">
+  <br/>
+  <a href="mailto:martinnnxz@gmail.com">
+    <img src="https://img.shields.io/badge/¡Escríbeme!-martinnnxz%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Enviar email" />
+  </a>
+  <a href="https://linkedin.com/in/tu-usuario-linkedin" target="_blank">
+    <img src="https://img.shields.io/badge/Conectemos-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Conectar en LinkedIn" />
+  </a>
+</div>
