@@ -29,7 +29,7 @@
 
 ## 👨‍💻 Sobre Mí
 
-Desarrollador Backend especializado en **Java** y **Spring Boot**, y estudiante avanzado de la carrera Analista Programador Universitario (UNJu). Me enfoco en construir soluciones robustas que priorizan la **seguridad**, la **escalabilidad** y un código fácil de mantener.
+Desarrollador Backend especializado en **Java** y **Spring Boot**, y estudiante avanzado de la carrera **Analista Programador Universitario (UNJu)**. Me enfoco en construir soluciones robustas que priorizan la **seguridad**, la **escalabilidad** y un código fácil de mantener.
 
 Mi stack incluye:
 - **APIs REST** con **Java**, **Spring Boot** y **Spring Data JPA**.
