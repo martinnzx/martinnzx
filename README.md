@@ -29,9 +29,16 @@
 
 ## 👨‍💻 Sobre Mí
 
-Desarrollador Backend especializado en **Java** y **Spring Boot**, y estudiante avanzado de la carrera **Analista Programador Universitario (UNJu)**. Me enfoco en crear soluciones sólidas que priorizan la seguridad, la escalabilidad y un código fácil de mantener.
+Desarrollador Backend especializado en **Java** y **Spring Boot**, y estudiante avanzado de la carrera Analista Programador Universitario (UNJu). Me enfoco en construir soluciones robustas que priorizan la **seguridad**, la **escalabilidad** y un código fácil de mantener.
 
-Diseño APIs REST limpias y eficientes, implementando esquemas de autenticación con **Spring Security + JWT**, e integrando **PostgreSQL** y **Docker** como parte de mi stack tecnológico.
+Mi stack incluye:
+- **APIs REST** con **Java**, **Spring Boot** y **Spring Data JPA**.
+- Seguridad con **Spring Security**: autenticación con **JWT** y autorización por roles.
+- Modelado de datos en **PostgreSQL** con **JPA/Hibernate**.
+- Calidad: testing con **JUnit** y **Mockito**, documentación con **Swagger/OpenAPI**.
+- Contenerización con **Docker** para entornos consistentes y despliegues simplificados.
+
+En pleno proceso de especialización en el ecosistema Java, sumando cada día nuevas herramientas y buenas prácticas para escribir código de calidad profesional.
 
 ---
 
